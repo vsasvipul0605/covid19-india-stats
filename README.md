@@ -1,8 +1,8 @@
-#covid19-india-stats
+# covid19-india-stats
  
  <img src="https://user-images.githubusercontent.com/47572837/79030888-e9818580-7bb8-11ea-98b1-f6db23654aed.png" width="90%"></img> 
  
- ##Sources
+ ## Sources
 
 https://www.mohfw.gov.in/
 https://icmr.nic.in/node/39071
@@ -14,7 +14,7 @@ https://twitter.com/thenewsminute
 http://gis.ndma.gov.in/arcgis/apps/sites/#/data
 https://covid.icmr.org.in/index.php
 
-######South
+###### South
 Tamil Nadu
 
 http://stopcoronatn.in/
@@ -64,7 +64,7 @@ https://collectorate.py.gov.in/Corona%20COVID-19.htm
 
 
 
-######WEST
+###### WEST
 Maharashtra
 
 https://arogya.maharashtra.gov.in/1175/Novel--Corona-Virus
@@ -93,7 +93,7 @@ Dadar & Nagar Haveli
 
 https://twitter.com/CollectorDnh/
 
-######NORTH
+###### NORTH
 Delhi
 
 http://health.delhigovt.nic.in/wps/wcm/connect/DoIT_Health/health/home/covid19
@@ -143,7 +143,7 @@ Uttarakhand
 http://health.uk.gov.in/pages/display/140-novel-corona-virus-guidelines-and-advisory-
 https://www.facebook.com/UKMedicalHealth/
 
-######EAST
+###### EAST
 West Bengal
 
 https://www.wbhealth.gov.in/pages/corona/bulletin
