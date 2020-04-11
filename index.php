@@ -32,7 +32,7 @@ include "data.php";
 <body>
     <div class="container-fluid bg-light p-5 text-center my-3">
         <h1>Covid-19 Tracker</h1>
-        <h5 class="text-muted">An opensource project to keep track of all the COVID-19 cases around the world</h5>
+        <h5 class="text-muted">An opensource project to keep track of all the COVID-19 cases around the nation</h5>
     </div>
 
     <div class="container my-5">
