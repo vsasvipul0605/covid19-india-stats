@@ -1,8 +1,8 @@
 language: php
 php:
   - "7.4.4"
-before_install:
-  - composer self-update
+install:
+  - composer install --no-interaction
 before_script:
   - composer install
 script: phpunit --configuration phpunit.xml --coverage-text
