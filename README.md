@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/vsasvipul0605/covid19-india-stats.svg?branch=master)](https://travis-ci.com/vsasvipul0605/covid19-india-stats)
 # covid19-india-stats
  
  <img src="https://user-images.githubusercontent.com/47572837/79030888-e9818580-7bb8-11ea-98b1-f6db23654aed.png" width="90%"></img> 
