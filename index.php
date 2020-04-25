@@ -60,7 +60,9 @@ include "data.php";
     </div>
 
     <div class="container bg-light p-3 my-3 text-center">
-        <h5 class="text-info">"Prevention is the only Cure"</h5>
+        <div class="quote">
+            <h5 class="text-info">"Prevention is the only Cure"</h5>
+        </div>
         <p class="text-muted">Stay Indoors Stay Safe</p>
     </div>
 
