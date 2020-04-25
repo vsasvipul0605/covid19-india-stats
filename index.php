@@ -37,16 +37,21 @@ include "data.php";
 
     <div class="container my-5">
         <div class="row text-center">
-            <div class="col-4 text-warning">
+            <div class="col-sm-6 col-lg-3 text-danger">
                 <h5>Confirmed</h5>
                 <?php echo $data['data']['summary']['total']; ?>
             </div>
-            <div class="col-4 text-success">
+            <div class="col-sm-6 col-lg-3 text-primary">
+                <h5>Active</h5>
+                <?php echo (($data['data']['summary']['total']) - ($data['data']['summary']['discharged']) - ($data['data']['summary']['deaths'])); ?>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 text-success">
                 <h5>Recovered</h5>
                 <?php echo $data['data']['summary']['discharged']; ?>
 
             </div>
-            <div class="col-4 text-danger">
+            <div class="col-sm-6 col-lg-3 text-secondary">
                 <h5>Deceased</h5>
                 <?php echo $data['data']['summary']['deaths']; ?>
 
