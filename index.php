@@ -27,6 +27,8 @@ include "data.php";
     <link rel="stylesheet" href="styles.css" type="text/css">
 
     <title>Covid-19 Tracker</title>
+
+
 </head>
 
 <body>
@@ -60,11 +62,12 @@ include "data.php";
     </div>
 
     <div class="container bg-light p-3 my-3 text-center">
-        <div class="quote">
-            <h5 class="text-info">"Prevention is the only Cure"</h5>
+        <div>
+            <h5 class="text-info" id="quote">"We'll definitely win this together"</h5>
         </div>
-        <p class="text-muted">Stay Indoors Stay Safe</p>
+
     </div>
+
 
     <div class="container-fluid">
         <div class="table-responsive">
@@ -132,6 +135,20 @@ include "data.php";
             <span class="text-muted">Copyright &copy; 2020, <a href="https://github.com/vsasvipul0605">Vipul Sinha</a></span>
         </div>
     </footer>
+    <script>
+        function getNewQuote() {
+            var xHttp = new XMLHttpRequest();
+            xHttp.onreadystatechange = function() {
+                if (this.readyState === 4 && this.status === 200) {
+                    document.getElementById("quote").innerHTML = this.responseText;
+                }
+            };
+            xHttp.open("GET", "get-quote.php", true);
+            xHttp.send();
+        }
+
+        setInterval(getNewQuote, 3000); // Refresh on every 3 seconds
+    </script>
 
 </body>
 
