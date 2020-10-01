@@ -72,7 +72,7 @@ include "data.php";
     <div class="container-fluid">
         <div class="table-responsive">
             <table class="table">
-                <thead class="thead-dark">
+                <thead class="thead-dark bg-secondary">
                     <tr>
                         <th scope="col">States</th>
                         <th scope="col">Confirmed-Indian</th>
